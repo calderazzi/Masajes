@@ -1,0 +1,230 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  background-image: url(fotos/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+audio {
+  position: fixed;
+  width: 220px;
+  height: 30px;
+  bottom: 0;
+}
+
+.whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:45px;
+	z-index:100;
+  }
+.whatsapp-icon {
+	margin-top:15px;
+}
+
+h1 {
+  position: fixed;
+  color: rgba(9, 115, 9, 0.661);
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  background: rgba(138, 218, 222, 0.428);
+  padding: 12px;
+}
+
+.ubicacion {
+  position:fixed;
+	width:400px;
+	height:60px;
+	bottom:10px;
+	right: 1px;
+	font-size:25px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:10px;
+	text-align:center;
+	z-index:100;
+}
+
+.parallax {
+  display: block;
+  width: 100%;
+  place-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@keyframes pasar {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+
+.sec-1 {
+  background-image: url(fotos/049f7a22-5121-4699-9c2d-a410cbdd96e0.jpg);
+  animation: pasar 4s;
+}
+.sec-2 {
+  background-image: url(fotos/06635195-93d7-4902-baa1-e98aee3c0a89.jpg);
+  animation: pasar 4s;
+  animation-delay: 4s;
+}
+.sec-3 {
+  background-image: url(fotos/22ffb106-e2c6-4a17-82da-a701c2466f01.jpg);
+  animation: pasar 4s;
+  animation-delay: 8s;
+}
+.sec-4 {
+  background-image: url(fotos/2dab0c4d-4b09-4bab-8624-d05275682983.jpg);
+  animation: pasar 4s;
+  animation-delay: 12s;
+}
+.sec-5 {
+  background-image: url(fotos/324ab949-d494-4bac-8989-3fd481daf24e.jpg);
+  animation: pasar 4s;
+  animation-delay: 16s;
+}
+.sec-6 {
+  background-image: url(fotos/3b0d5370-a6dc-40c4-8bba-ddb7bcbb267a.jpg);
+  animation: pasar 4s;
+  animation-delay: 20s;
+}
+.sec-7 {
+  background-image: url(fotos/3c7b6c57-e23c-443a-b40d-53def158486b.jpg);
+  animation: pasar 4s;
+  animation-delay: 24s;
+}
+.sec-8 {
+  background-image: url(fotos/45c2c281-250a-41f9-99ce-3a97fed8d886.jpg);
+  animation: pasar 4s;
+  animation-delay: 28s;
+}
+.sec-9 {
+  background-image: url(fotos/4ba6313a-e175-4c44-9bb5-7945c3c78fa1.jpg);
+  animation: pasar 4s;
+  animation-delay: 32s;
+}
+.sec-10 {
+  background-image: url(fotos/580b69a9-bf09-4525-9d41-9aa17ad05d03.jpg);
+  animation: pasar 4s;
+  animation-delay: 36s;
+}
+.sec-11 {
+  background-image: url(fotos/619c130e-0c06-4efe-847f-1b02c4d286ee.jpg);
+  animation: pasar 4s;
+  animation-delay: 40s;
+}
+.sec-12 {
+  background-image: url(fotos/6e3e23c2-ee8b-40b9-8424-120521983037.jpg);
+  animation: pasar 4s;
+  animation-delay: 44s;
+}
+.sec-13 {
+  background-image: url(fotos/74f1735e-a6d3-4470-b101-6a48fd720552.jpg);
+  animation: pasar 4s;
+  animation-delay: 48s;
+}
+.sec-14 {
+  background-image: url(fotos/8660c415-b463-4958-85cf-38def3bc088c.jpg);
+  animation: pasar 4s;
+  animation-delay: 52s;
+}
+.sec-15 {
+  background-image: url(fotos/93135694-eb9b-432b-b1c1-4a69a8b2c1ee.jpg);
+  animation: pasar 4s;
+  animation-delay: 56s;
+}
+.sec-16 {
+  background-image: url(fotos/972a2422-5b36-4487-b4b6-2e834ad65cea.jpg);
+  animation: pasar 4s;
+  animation-delay: 60s;
+}
+.sec-17 {
+  background-image: url(fotos/9bc3f86d-6e2c-4f6e-9a0a-0382f2912218.jpg);
+  animation: pasar 4s;
+  animation-delay: 64s;
+}
+.sec-18 {
+  background-image: url(fotos/a26ddcb5-bd69-43b4-a2b9-fad9eb5ffd4f.jpg);
+  animation: pasar 4s;
+  animation-delay: 68s;
+}
+.sec-19 {
+  background-image: url(fotos/adc7ac2d-cfaa-4c01-b0af-280c57da5c00.jpg);
+  animation: pasar 4s;
+  animation-delay: 72s;
+}
+.sec-20 {
+  background-image: url(fotos/bc876db8-4b7a-4b6e-8069-119e00b5f642.jpg);
+  animation: pasar 4s;
+  animation-delay: 76s;
+}
+.sec-21 {
+  background-image: url(fotos/c9388a4d-b752-4a12-907f-4e2d6f1060e4.jpg);
+  animation: pasar 4s;
+  animation-delay: 80s;
+}
+.sec-22 {
+  background-image: url(fotos/d07386b6-e4a9-4065-b778-0544a0823570.jpg);
+  animation: pasar 4s;
+  animation-delay: 84s;
+}
+.sec-23 {
+  background-image: url(fotos/d11d02a9-eed2-4a39-a0d0-f622bf4146bb.jpg);
+  animation: pasar 4s;
+  animation-delay: 88s;
+}
+.sec-24 {
+  background-image: url(fotos/e80bb038-6052-4012-b508-d2bc40ac4765.jpg);
+  animation: pasar 4s;
+  animation-delay: 92s;
+}
+.sec-25 {
+  background-image: url(fotos/fef8a880-7f22-4528-8e14-a7d2c8f23bb7.jpg);
+  animation: pasar 4s;
+  animation-delay: 96s;
+}
+
+@media only screen and (max-width: 500px) {
+  .ubicacion {
+    width:160px;
+    height:60px;
+    bottom:1px;
+    font-size:15px;
+}
+.whatsapp {
+  width: 40px;
+	height: 40px;
+	bottom: 60px;
+	right: 5px;
+  font-size: 29px;
+}
+.whatsapp-icon {
+	margin-top: 5px;
+}
+audio {
+  width: 170px;
+  height: 20px;
+}
+h1 {
+  font-size: 30px;
+}
+}
